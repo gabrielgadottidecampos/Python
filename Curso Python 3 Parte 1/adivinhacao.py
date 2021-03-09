@@ -9,7 +9,7 @@ pontos = 1000
 
 print("Qual o nivel de dificuldade? ")
 print("[1] Facil [2] medio [3] dificil")
-nivel = int(input("Digite a dificuldade"))
+nivel = int(input("Digite a dificuldade: "))
 if(nivel == 1):
     total_tentativas = 20
 elif(nivel == 2):
