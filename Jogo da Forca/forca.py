@@ -1,5 +1,4 @@
 import random
-
 def jogar():
     carrega_abertura()
     palavra_secreta = carrega_palavra_secreta()
