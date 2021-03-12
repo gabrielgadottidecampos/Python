@@ -1,5 +1,5 @@
-def conta_banco(Numero, nome, saldo, limite):
-    conta = {"Numero":Numero, "nome":nome, "saldo":saldo, "limite":limite}
+def conta_banco(numero, nome, saldo, limite):
+    conta = {"Numero":numero, "nome":nome, "saldo":saldo, "limite":limite}
     return conta
 
 def depositar(conta, valor):
